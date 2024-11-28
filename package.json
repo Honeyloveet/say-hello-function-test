@@ -1,0 +1,25 @@
+{
+  "name": "say-hello-function-test",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/honeyloveet/say-hello-function-test",
+  "repository": {
+    "url": "https://github.com/honeyloveet/say-hello-function-test"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test",
+    "hello"
+  ],
+  "author": "honeyloveet",
+  "license": "ISC",
+  "description": "Just a test package that says hello.",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
